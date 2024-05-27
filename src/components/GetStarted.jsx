@@ -46,14 +46,14 @@ const GetStarted = () => {
                 >
                     <Title
                     text={
-                        'We make it easy for tenants and landlords'
+                        'Güvenilir Projeler Tasarlıyoruz'
                     }
                     textAlign={'start'}
                     />
                     <CustomTypography>
-                        Listing are updated continuously so you<br />
-                        won't miss out on homes that just hit<br />
-                        market until you find your perfect home.
+                    Müşterilerimizin ihtiyaçlarını ve beklentilerini karşılayan güvenilir projeler tasarlıyoruz. 
+                    Yüksek kalite standartları ve titiz çalışma prensiplerimizle projelerinizi zamanında ve bütçenize uygun şekilde tamamlıyoruz.
+                    Güvenilir ve sağlam yapılar inşa ederek, sizin ve sevdiklerinizin güvenliğini ön planda tutuyoruz.
                     </CustomTypography> 
                 </Box>
 
@@ -91,14 +91,15 @@ const GetStarted = () => {
                 >
                     <Title
                     text={
-                        'Match with the best agent'
+                        'Yenilikçi Çözümler Sunuyoruz'
                         
                     }
                     textAlign={'start'}
                     />
                     <CustomTypography>
-                        Our verified partner Agents are local experts who<br /> 
-                        earn an average of 4.8/5 stars from buyers and sellers.
+                    Modern mimari ve yenilikçi inşaat teknikleri ile projelerinizi hayata geçiriyoruz. 
+                    Her projede, çevre dostu malzemeler ve sürdürülebilir yöntemler kullanarak, geleceğe değer katıyoruz. 
+                    Teknoloji ve estetiği bir araya getirerek, benzersiz yaşam alanları ve iş yerleri yaratıyoruz.
                     </CustomTypography>
                 </Box>
             </CustomGridItem>

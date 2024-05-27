@@ -31,17 +31,17 @@ const DrawerHeader = styled('div')(({ theme }) => ({
 //rotas
 const itemList = [
   {
-    text: "Home",
+    text: "Ana Sayfa",
     icon: <HomeIcon />,
     to: "/"
   },
   {
-    text: "About",
+    text: "Hakkımızda",
     icon: <InfoIcon />,
     to: "/about"
   },
   {
-    text: "Contact",
+    text: "Iletişim",
     icon: <EmailIcon />,
     to: "/contact"
   }

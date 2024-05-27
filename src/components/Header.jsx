@@ -2,7 +2,7 @@ import React from 'react'
 import { Box, Button, styled, Typography } from "@mui/material";
 import { Link } from 'react-router-dom'
 //img
-import headerImg from '../assets/pexels-binyamin-mellish-186078.png'
+import headerImg from '../assets/building2.png'
 
 const Header = () => {
 
@@ -12,7 +12,7 @@ const Header = () => {
         justifyContent: 'center',
         gap: theme.spacing(2),
         paddingTop: theme.spacing(10),
-        backgroundColor: 'orange',
+        backgroundColor: 'white',
         [theme.breakpoints.down('md')]: {
             flexDirection: 'column',
             alignItems: 'center',
@@ -43,7 +43,7 @@ const Header = () => {
                 component= 'h1'
                 sx={{
                     fontWeight: 700,
-                    color: '#fff',
+                    color: '#000',
                 }}
                 >
                     Hayatınıza fonksiyon katıyoruz
@@ -55,7 +55,7 @@ const Header = () => {
                 sx={{
                     py: 3,
                     lineHeight: 1.6,
-                    color: '#fff',
+                    color: '#000',
                 }}
                 >
                     Kullandığımız yüksek teknoloji, bünyemizdeki kalifiyeli kadromuzla dünyamızın yaşanabilir değerlerini insanlığa sunuyoruz.
@@ -63,51 +63,29 @@ const Header = () => {
 
                 <Box>
                     <Button 
-                    variant='contained'
-                    sx={{
-                        mr: 2,
-                        px: 4, 
-                        py: 1,
-                        fontSize: '0.9rem',
-                        textTransform: 'capitalize',
-                        borderRadius: 0,
-                        borderColor: '#14192d',
-                        color: '#fff',
-                        backgroundColor: '#14192d',
-                        "&&:hover": {
-                            backgroundColor: "#343a55"
-                        },
-                        "&&:focus": {
-                            backgroundColor: "#343a55"
-                        }
-                    }}
+                        component={Link} 
+                        to={'/about'}
+                        variant='outlined'
+                        sx={{
+                            px: 4, 
+                            py: 1,
+                            fontSize:'0.9rem',
+                            textTransform: 'capitalize',
+                            borderRadius: 0,
+                            color: '#000',
+                            backgroundColor: 'transparent',
+                            borderColor: '#000',
+                            "&&:hover": {
+                                color: '#343a55',
+                                borderColor: '#343a55',
+                            },
+                            "&&:focus": {
+                                color: '#343a55',
+                                borderColor: '#343a55',
+                            }
+                        }}
                     >
-                        buy now
-                    </Button>
-                    <Button 
-                    component={Link} 
-                    to={'/about'}
-                    variant='outlined'
-                    sx={{
-                        px: 4, 
-                        py: 1,
-                        fontSize:'0.9rem',
-                        textTransform: 'capitalize',
-                        borderRadius: 0,
-                        color: '#fff',
-                        backgroundColor: 'transparent',
-                        borderColor: '#fff',
-                        "&&:hover": {
-                            color: '#343a55',
-                            borderColor: '#343a55',
-                        },
-                        "&&:focus": {
-                            color: '#343a55',
-                            borderColor: '#343a55',
-                        }
-                    }}
-                    >
-                        explore
+                        Iletişim
                     </Button>
                 </Box>
             </BoxText>

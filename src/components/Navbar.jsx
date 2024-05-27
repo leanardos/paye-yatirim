@@ -26,18 +26,17 @@ const ListMenu = styled(List)(({ theme }) => ({
     },
 }));
 
-//rotas
 const itemList = [
     {
-      text: "Home",
+      text: "Ana Sayfa",
       to: "/" 
     },
     {
-      text: "About",
+      text: "Hakkımızda",
       to: "/about"
     },
     {
-        text: "Contact",
+        text: "Iletişim",
         to: "/contact"
     }
 ];
@@ -50,7 +49,7 @@ const Navbar = () => {
         component="nav" 
         position="sticky"
         sx={{ 
-            backgroundColor: 'orange', 
+            backgroundColor: 'white', 
         }}
         elevation={0}
         >
@@ -72,7 +71,7 @@ const Navbar = () => {
                             <ListItem key={text}>
                                 <ListItemButton component={Link} to={item.to}
                                 sx={{
-                                    color: '#fff',
+                                    color: '#000',
                                     "&:hover": {
                                         backgroundColor: 'transparent',
                                         color: '#1e2a5a',
