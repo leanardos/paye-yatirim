@@ -60,7 +60,7 @@ const Navbar = () => {
                 component="h2"
 
                 >
-                    HBSales
+                    Paye Yatırım
                 </Typography>
                 <Box sx={{display: { xs: 'block', sm: 'none' } }}>
                     <DrawerItem /> 

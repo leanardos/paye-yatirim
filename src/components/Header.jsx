@@ -46,7 +46,7 @@ const Header = () => {
                     color: '#fff',
                 }}
                 >
-                    We'll build house of your dream
+                    Hayatınıza fonksiyon katıyoruz
                 </Typography>
 
                 <Typography
@@ -58,8 +58,7 @@ const Header = () => {
                     color: '#fff',
                 }}
                 >
-                    We have 9000 more review and our customers
-                    trust on out property and quality products.
+                    Kullandığımız yüksek teknoloji, bünyemizdeki kalifiyeli kadromuzla dünyamızın yaşanabilir değerlerini insanlığa sunuyoruz.
                 </Typography>
 
                 <Box>
