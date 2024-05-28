@@ -6,8 +6,8 @@ import {
     Typography,
 } from '@mui/material'
 import Title from './Title'
-import imgDetail from '../assets/pexels-alex-staudinger-1732414.jpg';
-import imgDetail2 from '../assets/pexels-pixabay-271816.jpg';
+import imgDetail from '../assets/file.png';
+import imgDetail2 from '../assets/building6.png';
 
 
 const GetStarted = () => {

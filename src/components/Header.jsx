@@ -12,7 +12,7 @@ const Header = () => {
         justifyContent: 'center',
         gap: theme.spacing(2),
         paddingTop: theme.spacing(10),
-        backgroundColor: 'white',
+        backgroundColor: '#b3d7f5',
         [theme.breakpoints.down('md')]: {
             flexDirection: 'column',
             alignItems: 'center',
