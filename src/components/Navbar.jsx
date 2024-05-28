@@ -12,6 +12,7 @@ import {
 } from '@mui/material';
 import DrawerItem from './DrawerItem';
 import { Link } from 'react-router-dom';
+import PinterestIcon from '@mui/icons-material/Pinterest';
 
 
 const StyledToolbar = styled(Toolbar) ({
@@ -49,17 +50,18 @@ const Navbar = () => {
         component="nav" 
         position="sticky"
         sx={{ 
-            backgroundColor: 'white', 
+            backgroundColor: 'black', 
         }}
         elevation={0}
         >
             <StyledToolbar>
+                
                 <Typography
                 variant="h6"
                 component="h2"
 
                 >
-                    Paye Yatırım
+                    <PinterestIcon fontSize='large' />
                 </Typography>
                 <Box sx={{display: { xs: 'block', sm: 'none' } }}>
                     <DrawerItem /> 
@@ -71,11 +73,12 @@ const Navbar = () => {
                             <ListItem key={text}>
                                 <ListItemButton component={Link} to={item.to}
                                 sx={{
-                                    color: '#000',
+                                    color: '#fff',
                                     "&:hover": {
                                         backgroundColor: 'transparent',
-                                        color: '#1e2a5a',
-                                    }
+                                        color: 'wheat',
+                                    },
+                                    minWidth: '120px'
                                 }}
                                 >
                                     <ListItemText primary={text} />

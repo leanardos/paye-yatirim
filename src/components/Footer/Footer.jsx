@@ -3,13 +3,20 @@ import {
   Box, 
   Stack, 
   styled, 
-  Typography,
 } from '@mui/material'
 import Link from '@mui/material/Link';
 import FooterTitle from './FooterTitle'
-import FooterLink from './FooterLink'
+import FooterText from './FooterText'
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import PlaceIcon from '@mui/icons-material/Place';
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
+import EmailIcon from '@mui/icons-material/Email';
+import AccessTimeIcon from '@mui/icons-material/AccessTime';
+import PinterestIcon from '@mui/icons-material/Pinterest';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import Divider from '@mui/material/Divider';
+
 
 const Footer = () => {
 
@@ -25,6 +32,8 @@ const Footer = () => {
   const BoxRow = styled(Box) (({ theme }) => ({
     display: 'flex',
     flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
     backgroundColor: '#ededed',
     flex: 1,
     [theme.breakpoints.down('sm')]: {
@@ -34,7 +43,7 @@ const Footer = () => {
   }));
 
   return (
-    
+    <>
     <BoxRow 
     component = 'footer'
     sx={{
@@ -43,39 +52,51 @@ const Footer = () => {
     }}
     >
       <StackColumn>
-        <FooterTitle text={'address'} />
-        <FooterLink 
-        text={'15th Louis St, london 92382, eng'} 
-        />
-        <FooterLink 
-        text={'25 999-345-10800'} 
-        />
-        <FooterLink 
-        text={'info@housesales.com'} 
-        />
+        <PlaceIcon fontSize='large'/>
+        <FooterText text={'Ayazağa Mah. Kemerburgaz Cad.'} />
+        <FooterText text={'Vadi İstanbul Park Sitesi 7B Blok'} />
+        <FooterText text={'No:7C İç Kapı No:34 Sarıyer/İstanbul'} />
       </StackColumn>
       
       <StackColumn>
-        <FooterTitle text={'our services'} />
-        <FooterLink text={'buy house'} />
-        <FooterLink text={'sell house'} />
-        <FooterLink text={'rent house'} />
-        <FooterLink text={'build house'} />
-      </StackColumn>
-      <StackColumn>
-        <FooterTitle text={'our company'} />
-        <FooterLink text={'reporting'} />
-        <FooterLink text={'get in touch'} />
-        <FooterLink text={'management'} />
+        <LocalPhoneIcon fontSize='large'/>
+        <FooterText text={'(+90) 212 876 5273'} />
+        <FooterText text={'(+90) 212 876 1273'} />
       </StackColumn>
 
       <StackColumn>
-        <FooterTitle text={'payeYatirim'} />
+        <EmailIcon fontSize='large'/>
+        <FooterText text={'info@payeyatirim.com'} capitalize={false} />
+      </StackColumn>
+
+      <StackColumn>
+        <AccessTimeIcon fontSize='large'/>
+        <FooterText text={'Pt - Cu : 09:00 - 18:00'} />
+        <FooterText text={'Cts : 09:00 - 13:00'} />
+      </StackColumn>
+    </BoxRow>
+    <Divider />
+    <BoxRow 
+      component = 'footer'
+      sx={{
+        py: 8,
+        px: 4,
+      }}
+    >
+       <StackColumn>
+        <FooterText text={'© 2024 Tüm Hakları Saklıdır'} />
+      </StackColumn>
+      <StackColumn>
+        <PinterestIcon fontSize='large'/>
+
+        <FooterTitle text={'Paye Yatırım'} />
+      </StackColumn>
+      <StackColumn>
         <Stack 
-        direction='row' 
-        width= '70px'
-        maxWidth='100%'
-        justifyContent='space-between'
+          direction='row' 
+          width= '70px'
+          maxWidth='100%'
+          justifyContent='space-between'
         >
           <Link href="#" variant="body2" 
           sx={{
@@ -85,7 +106,17 @@ const Footer = () => {
             }
           }}
           >
-            <InstagramIcon />  
+            <InstagramIcon fontSize='large' />  
+          </Link> 
+          <Link href="#" variant="body2" 
+          sx={{
+            color: '#414141',
+            "&:hover": {
+              color: '#1c2859',
+            }
+          }}
+          >
+            <LinkedInIcon fontSize='large' />  
           </Link> 
           <Link href="#"variant="body2" 
           sx={{
@@ -95,17 +126,12 @@ const Footer = () => {
             }
           }}
           >
-            <FacebookIcon />
+            <FacebookIcon fontSize='large' />
           </Link> 
         </Stack>
-        <Typography 
-        variant='caption'
-        component='p' 
-        >
-          &copy; 2024 Paye Yatırım.
-        </Typography>
       </StackColumn>
     </BoxRow>
+    </>
   )
 }
 

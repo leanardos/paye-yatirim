@@ -2,7 +2,7 @@ import React from 'react'
 import { Box, Button, styled, Typography } from "@mui/material";
 import { Link } from 'react-router-dom'
 //img
-import headerImg from '../assets/building2.png'
+import headerImg from '../assets/building4.png'
 
 const Header = () => {
 
