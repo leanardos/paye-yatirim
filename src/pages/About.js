@@ -1,12 +1,10 @@
 import React from 'react'
-import Content from '../components/Content';
-import Gallery from '../components/Gallery';
+import Generic from '../components/Generic';
 
 const About = () => {
   return (
     <>
-      <Content />
-      <Gallery />
+      <Generic />
     </>
   )
 }

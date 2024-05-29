@@ -2,7 +2,7 @@ import React from 'react'
 import { Box, Button, styled, Typography } from "@mui/material";
 import { Link } from 'react-router-dom'
 //img
-import headerImg from '../assets/building4.png'
+import headerImg from '../assets/building7.png'
 
 const Header = () => {
 
@@ -12,7 +12,7 @@ const Header = () => {
         justifyContent: 'center',
         gap: theme.spacing(2),
         paddingTop: theme.spacing(10),
-        backgroundColor: '#b3d7f5',
+        backgroundColor: 'aliceblue',
         [theme.breakpoints.down('md')]: {
             flexDirection: 'column',
             alignItems: 'center',
@@ -64,7 +64,7 @@ const Header = () => {
                 <Box>
                     <Button 
                         component={Link} 
-                        to={'/about'}
+                        to={'/contact'}
                         variant='outlined'
                         sx={{
                             px: 4, 
@@ -100,14 +100,17 @@ const Header = () => {
                     flex: '2',
                     alignSelf: 'flex-end',
                 },
+                [theme.breakpoints.up('lg')]:{
+                    flex: '1',
+                    alignSelf: 'flex-end',
+                },
             })}
             >
                 <img
                 src={headerImg}
                 alt="headerImg"
                 style={{ 
-                    width: "100%", 
-                    marginBottom: -15,
+                    width: "100%",
                 }}
                 />
             </Box>

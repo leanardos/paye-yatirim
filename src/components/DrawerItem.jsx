@@ -17,6 +17,7 @@ import InfoIcon from '@mui/icons-material/Info';
 import MenuIcon from '@mui/icons-material/Menu';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
+import WorkIcon from '@mui/icons-material/Work';
 
 const drawerWidth = 240;
 
@@ -39,6 +40,11 @@ const itemList = [
     text: "Hakkımızda",
     icon: <InfoIcon />,
     to: "/about"
+  },
+  {
+    text: "Hizmetler",
+    icon: <WorkIcon />,
+    to: "/services"
   },
   {
     text: "Iletişim",

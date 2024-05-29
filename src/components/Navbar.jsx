@@ -37,6 +37,10 @@ const itemList = [
       to: "/about"
     },
     {
+      text: "Hizmetler",
+      to: "/services"
+    },
+    {
         text: "Iletişim",
         to: "/contact"
     }
