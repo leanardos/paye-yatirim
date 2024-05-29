@@ -8,6 +8,7 @@ import {
 import Title from './Title'
 import imgDetail from '../assets/file.png';
 import imgDetail2 from '../assets/building6.png';
+import imgDetail3 from '../assets/construction.png';
 
 
 const GetStarted = () => {
@@ -35,6 +36,37 @@ const GetStarted = () => {
              
         }}
         >
+              <Grid item xs={12} sm={4} md={6}>
+                <img src={imgDetail} alt="" 
+                style={{
+                    width: '100%',
+                }}
+                />
+            </Grid>
+
+            <CustomGridItem item xs={12} sm={8} md={6} 
+            component = 'section'
+           
+            >
+                <Box component='article'
+                sx={{
+                    px: 4,
+                }}
+                >
+                    <Title
+                    text={
+                        'Yaşama, Kalıcı Eserler Armağan Ediyoruz'
+                    }
+                    textAlign={'start'}
+                    />
+                    <CustomTypography>
+                    İlkelerimizi sürdürülebilir kılmak ve geliştirmek için bilimsel yöntem ve teknolojileri, yasal mevzuat ve yönetmeliklerin gereklerini yerine getirecek şekilde kullandık.
+                    Şirketimiz bünyesindeki tüm faaliyetlerin uygulanması, geliştirilmesi ve sürekli iyileştirilmesi için takım ruhunu benimseyen, özveri ile çalışan ekibimiz ve elemanlarımız kalitemizin mimarlarıdır.
+                    </CustomTypography> 
+                </Box>
+
+            </CustomGridItem>
+            
             <CustomGridItem item xs={12} sm={8} md={6} 
             component = 'section'
            
@@ -60,7 +92,7 @@ const GetStarted = () => {
             </CustomGridItem>
             
             <Grid item xs={12} sm={4} md={6}>
-                <img src={imgDetail} alt="" 
+                <img src={imgDetail2} alt="" 
                 style={{
                     width: '100%',
                 }}
@@ -72,7 +104,7 @@ const GetStarted = () => {
                 order: {xs: 4, sm: 4, md: 3}
             }}
             >
-                <img src={imgDetail2} alt="" 
+                <img src={imgDetail3} alt="" 
                 style={{ 
                     width: "100%",
                 }}
