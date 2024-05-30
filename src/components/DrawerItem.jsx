@@ -46,11 +46,11 @@ const itemList = [
     icon: <WorkIcon />,
     to: "/services"
   },
-  {
-    text: "Iletişim",
-    icon: <EmailIcon />,
-    to: "/contact"
-  }
+  // {
+  //   text: "Iletişim",
+  //   icon: <EmailIcon />,
+  //   to: "/contact"
+  // }
 ];
 
 

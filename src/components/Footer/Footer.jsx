@@ -5,7 +5,6 @@ import {
   styled, 
 } from '@mui/material'
 import Link from '@mui/material/Link';
-import FooterTitle from './FooterTitle'
 import FooterText from './FooterText'
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -13,9 +12,9 @@ import PlaceIcon from '@mui/icons-material/Place';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import EmailIcon from '@mui/icons-material/Email';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
-import PinterestIcon from '@mui/icons-material/Pinterest';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import Divider from '@mui/material/Divider';
+import imgDetail from '../../assets/newFullLogo.png';
 
 
 const Footer = () => {
@@ -87,9 +86,7 @@ const Footer = () => {
         <FooterText text={'© 2024 Tüm Hakları Saklıdır'} />
       </StackColumn>
       <StackColumn>
-        <PinterestIcon fontSize='large'/>
-
-        <FooterTitle text={'Paye Yatırım'} />
+        <img src={imgDetail} alt=""  style={{ width: '200px' }} />
       </StackColumn>
       <StackColumn>
         <Stack 

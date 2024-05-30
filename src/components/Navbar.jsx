@@ -12,8 +12,7 @@ import {
 } from '@mui/material';
 import DrawerItem from './DrawerItem';
 import { Link } from 'react-router-dom';
-import PinterestIcon from '@mui/icons-material/Pinterest';
-
+import imgDetail from '../assets/logo-white.png';
 
 const StyledToolbar = styled(Toolbar) ({
     display: 'flex',
@@ -40,10 +39,10 @@ const itemList = [
       text: "Hizmetler",
       to: "/services"
     },
-    {
-        text: "Iletişim",
-        to: "/contact"
-    }
+    // {
+    //     text: "Iletişim",
+    //     to: "/contact"
+    // }
 ];
 
 
@@ -65,7 +64,8 @@ const Navbar = () => {
                 component="h2"
 
                 >
-                    <PinterestIcon fontSize='large' />
+                    <img src={imgDetail} alt="" style={{  width: '170px', paddingTop: '10px' }}
+                />
                 </Typography>
                 <Box sx={{display: { xs: 'block', sm: 'none' } }}>
                     <DrawerItem /> 

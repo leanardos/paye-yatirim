@@ -5,9 +5,8 @@ import {
 } from '@mui/material'
 import Title from './Title'
 import Paragraph from './Paragraph'
-import { Link } from 'react-router-dom'
 
-const GetInTouch = () => {
+const GetInTouch = ({ scrollToBottom }) => {
 
     return (
         <Stack 
@@ -35,28 +34,6 @@ const GetInTouch = () => {
                 mx={0}
                 textAlign={'center'}
             />
-            <Button component={Link} 
-                to={'/contact'}
-                variant="contained" 
-                type="submit"
-                size="medium"
-                sx= {{ 
-                    fontSize: '0.9rem',
-                    textTransform: 'capitalize', 
-                    py: 2,
-                    px: 4,
-                    mt: 3, 
-                    mb: 2,
-                    borderRadius: 0,
-                    backgroundColor: '#14192d',
-                    "&:hover": {
-                        backgroundColor: '#1e2a5a',
-                    }
-                }}
-            >
-                Iletişime geç
-            </Button>
- 
         </Stack>
     )
 }

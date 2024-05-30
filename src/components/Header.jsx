@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 //img
 import headerImg from '../assets/building7.png'
 
-const Header = () => {
+const Header = ({ scrollToBottom }) => {
 
     const CustomBox = styled(Box) (({ theme }) => ({
         minHeight: '80vh',
@@ -64,7 +64,7 @@ const Header = () => {
                 <Box>
                     <Button 
                         component={Link} 
-                        to={'/contact'}
+                        onClick={scrollToBottom}
                         variant='outlined'
                         sx={{
                             px: 4, 
