@@ -12,7 +12,7 @@ const Header = ({ scrollToBottom }) => {
         justifyContent: 'center',
         gap: theme.spacing(2),
         paddingTop: theme.spacing(10),
-        backgroundColor: 'aliceblue',
+        backgroundColor: '#ededed',
         [theme.breakpoints.down('md')]: {
             flexDirection: 'column',
             alignItems: 'center',

@@ -11,7 +11,6 @@ import {
   ListItemText,
 } from '@mui/material'
 import { Link } from 'react-router-dom';
-import EmailIcon from '@mui/icons-material/Email';
 import HomeIcon from '@mui/icons-material/Home';
 import InfoIcon from '@mui/icons-material/Info';
 import MenuIcon from '@mui/icons-material/Menu';

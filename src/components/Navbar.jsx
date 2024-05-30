@@ -12,7 +12,8 @@ import {
 } from '@mui/material';
 import DrawerItem from './DrawerItem';
 import { Link } from 'react-router-dom';
-import imgDetail from '../assets/logo-white.png';
+import imgDetail from '../assets/newFullLogo.png';
+import { useNavigate } from "react-router-dom";
 
 const StyledToolbar = styled(Toolbar) ({
     display: 'flex',
@@ -47,13 +48,14 @@ const itemList = [
 
 
 const Navbar = () => {
-    
+    let navigate = useNavigate(); 
+
     return (
         <AppBar 
         component="nav" 
         position="sticky"
         sx={{ 
-            backgroundColor: 'black', 
+            backgroundColor: '#ededed', 
         }}
         elevation={0}
         >
@@ -64,8 +66,7 @@ const Navbar = () => {
                 component="h2"
 
                 >
-                    <img src={imgDetail} alt="" style={{  width: '170px', paddingTop: '10px' }}
-                />
+                    <img src={imgDetail} alt="" style={{  width: '170px', paddingTop: '10px', cursor: 'pointer' }} onClick={() => navigate('/')}/>
                 </Typography>
                 <Box sx={{display: { xs: 'block', sm: 'none' } }}>
                     <DrawerItem /> 
@@ -77,10 +78,10 @@ const Navbar = () => {
                             <ListItem key={text}>
                                 <ListItemButton component={Link} to={item.to}
                                 sx={{
-                                    color: '#fff',
+                                    color: '#000',
                                     "&:hover": {
                                         backgroundColor: 'transparent',
-                                        color: 'wheat',
+                                        transform: 'scale(1.2)',
                                     },
                                     minWidth: '120px'
                                 }}
