@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route, HashRouter } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
@@ -18,7 +18,7 @@ function App() {
 	};
 	return (
 		<>
-			<BrowserRouter basename={process.env.PUBLIC_URL}>
+			<HashRouter basename={process.env.PUBLIC_URL}>
 				<Navbar />
 				<Routes>
 					<Route
@@ -38,7 +38,7 @@ function App() {
 						element={<Contact />}
 					/> */}
 				</Routes>
-			</BrowserRouter>
+			</HashRouter>
 			<Footer />
 		</>
 	);
