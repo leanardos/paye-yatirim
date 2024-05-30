@@ -50,7 +50,7 @@ const Generic = () => {
                     textAlign={'start'}
                     />
                     <CustomTypography>
-                    Paye Yatırım Yapı olaraku zmanlığımız ve teknik bilgi birikimimizin yanı sıra, etik değerlere bağlı, ilkeli ve şeffaf çalışma prensiplerimiz sayesinde sektörde prestijli bir yer edindik.
+                    Paye Yatırım Yapı olarak uzmanlığımız ve teknik bilgi birikimimizin yanı sıra, etik değerlere bağlı, ilkeli ve şeffaf çalışma prensiplerimiz sayesinde sektörde prestijli bir yer edindik.
                     </CustomTypography> 
                 </Box>
 
