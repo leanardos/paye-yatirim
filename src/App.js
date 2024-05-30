@@ -7,7 +7,6 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer/Footer';
 
 function App() {
-
 	const scrollToBottom = () => {
 		console.log('comes to here');
 		window.scroll({
@@ -18,7 +17,7 @@ function App() {
 	};
 	return (
 		<>
-			<HashRouter basename={process.env.PUBLIC_URL}>
+			<HashRouter>
 				<Navbar />
 				<Routes>
 					<Route
