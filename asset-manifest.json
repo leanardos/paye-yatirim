@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.cfb5c7c9.js",
+    "main.js": "/static/js/main.a1647000.js",
     "static/media/paye_building_2.png": "/static/media/paye_building_2.90e1eebf252f45889159.png",
     "static/media/service.png": "/static/media/service.e0c2157d5aa75102d525.png",
     "static/media/building7.png": "/static/media/building7.7dac5fbcd421f5a7df39.png",
@@ -9,9 +9,9 @@
     "static/media/building6.png": "/static/media/building6.ca02ccd8f14f72f72d9c.png",
     "static/media/newFullLogo.png": "/static/media/newFullLogo.cd53039f13162a68a94a.png",
     "index.html": "/index.html",
-    "main.cfb5c7c9.js.map": "/static/js/main.cfb5c7c9.js.map"
+    "main.a1647000.js.map": "/static/js/main.a1647000.js.map"
   },
   "entrypoints": [
-    "static/js/main.cfb5c7c9.js"
+    "static/js/main.a1647000.js"
   ]
 }
