@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import {
 	styled,
 	useTheme,
@@ -58,10 +58,29 @@ const DrawerItem = () => {
 	const handleDrawerOpen = () => {
 		setOpen(true);
 	};
+	const drawerRef = useRef(null);
 
+	const handleClickOutside = (event) => {
+		if (drawerRef.current && !drawerRef.current.contains(event.target)) {
+			setOpen(false);
+		}
+	};
 	const handleDrawerClose = () => {
 		setOpen(false);
 	};
+
+	useEffect(() => {
+		if (open) {
+			document.addEventListener('mousedown', handleClickOutside);
+		} else {
+			document.removeEventListener('mousedown', handleClickOutside);
+		}
+
+		// Cleanup the event listener on component unmount
+		return () => {
+			document.removeEventListener('mousedown', handleClickOutside);
+		};
+	}, [open]);
 
 	return (
 		<>
@@ -70,11 +89,12 @@ const DrawerItem = () => {
 				aria-label='open drawer'
 				edge='end'
 				onClick={handleDrawerOpen}
-				sx={{ ...(open && { display: 'none' }) }}>
+				sx={{ color: 'black', ...(open && { display: 'none' }) }}>
 				<MenuIcon />
 			</IconButton>
 
 			<Drawer
+				ref={drawerRef}
 				sx={{
 					flexGrow: 1,
 					flexShrink: 0,
@@ -102,6 +122,7 @@ const DrawerItem = () => {
 							<ListItem
 								key={text}
 								component={Link}
+								onClick={() => setOpen(!open)}
 								to={item.to}
 								sx={{
 									color: '#414141',
