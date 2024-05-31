@@ -81,7 +81,8 @@ const Navbar = () => {
                                     color: '#000',
                                     "&:hover": {
                                         backgroundColor: 'transparent',
-                                        transform: 'scale(1.2)',
+                                        transform: 'scale(1.1)',
+                                        transition: 'transform .2s ease-in-out',
                                     },
                                     minWidth: '120px'
                                 }}

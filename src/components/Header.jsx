@@ -37,6 +37,10 @@ const Header = ({ scrollToBottom }) => {
             {/*  Box text  */}
             <BoxText 
             component='section'
+            style={{
+                alignContent: 'center',
+                paddingBottom: '50px'
+            }}
             >
                 <Typography
                 variant='h2'
@@ -46,7 +50,7 @@ const Header = ({ scrollToBottom }) => {
                     color: '#000',
                 }}
                 >
-                    Hayatınıza fonksiyon katıyoruz
+                    Paye Yatırım Yapıya Hosgeldiniz
                 </Typography>
 
                 <Typography
@@ -58,7 +62,7 @@ const Header = ({ scrollToBottom }) => {
                     color: '#000',
                 }}
                 >
-                    Kullandığımız yüksek teknoloji, bünyemizdeki kalifiyeli kadromuzla dünyamızın yaşanabilir değerlerini insanlığa sunuyoruz.
+                    Paye Yatırım Yapı olarak, kullandığımız yüksek teknoloji, bünyemizdeki kalifiyeli kadromuzla dünyamızın yaşanabilir değerlerini insanlığa sunuyoruz.
                 </Typography>
 
                 <Box>

@@ -5,7 +5,7 @@ import {
 import Title from './Title'
 import Paragraph from './Paragraph'
 
-const GetInTouch = ({ scrollToBottom }) => {
+const GetInTouch = () => {
 
     return (
         <Stack 
@@ -26,7 +26,7 @@ const GetInTouch = ({ scrollToBottom }) => {
             />
             <Paragraph 
                 text={
-                    'Paye Yapı olarak iletişimin gücüne inanıyoruz.\
+                    'Paye Yatırım Yapı olarak iletişimin gücüne inanıyoruz.\
                     Bir fikriniz ya da öneriniz varsa bunu bizimle paylaşabilirsiniz.'
                 }
                 maxWidth = {'sm'}
