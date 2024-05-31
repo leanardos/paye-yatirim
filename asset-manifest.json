@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/paye-yatirim/static/js/main.018b1481.js",
+    "main.js": "/paye-yatirim/static/js/main.a77d1c8e.js",
     "static/media/paye_building_2.png": "/paye-yatirim/static/media/paye_building_2.90e1eebf252f45889159.png",
     "static/media/service.png": "/paye-yatirim/static/media/service.e0c2157d5aa75102d525.png",
     "static/media/building7.png": "/paye-yatirim/static/media/building7.7dac5fbcd421f5a7df39.png",
@@ -9,9 +9,9 @@
     "static/media/building6.png": "/paye-yatirim/static/media/building6.ca02ccd8f14f72f72d9c.png",
     "static/media/newFullLogo.png": "/paye-yatirim/static/media/newFullLogo.cd53039f13162a68a94a.png",
     "index.html": "/paye-yatirim/index.html",
-    "main.018b1481.js.map": "/paye-yatirim/static/js/main.018b1481.js.map"
+    "main.a77d1c8e.js.map": "/paye-yatirim/static/js/main.a77d1c8e.js.map"
   },
   "entrypoints": [
-    "static/js/main.018b1481.js"
+    "static/js/main.a77d1c8e.js"
   ]
 }
