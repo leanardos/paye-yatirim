@@ -33,6 +33,9 @@ const GetStarted = () => {
 				xs={12}
 				sm={8}
 				md={6}
+				sx={{
+					order: { xs: 2 },
+				}}
 				component='section'>
 				<Box
 					component='article'
@@ -58,7 +61,7 @@ const GetStarted = () => {
 				sm={4}
 				md={6}
 				sx={{
-					order: { xs: 0 },
+					order: { xs: 1, sm: 0 },
 				}}>
 				<img
 					src={imgDetail}
@@ -100,7 +103,10 @@ const GetStarted = () => {
 				item
 				xs={12}
 				sm={4}
-				md={6}>
+				md={6}
+				sx={{
+					order: { xs: 3 },
+				}}>
 				<img
 					src={imgDetail2}
 					alt=''
