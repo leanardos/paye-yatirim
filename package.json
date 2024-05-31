@@ -1,7 +1,7 @@
 {
   "name": "landing-page-reactjs-materialui",
   "version": "0.1.0",
-  "homepage": "https://leanardos.github.io/paye-yatirim",
+  "homepage": "https://payeyatirim.com.tr",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
