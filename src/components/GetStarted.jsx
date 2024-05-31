@@ -58,7 +58,7 @@ const GetStarted = () => {
 				sm={4}
 				md={6}
 				sx={{
-					order: { xs: 0,  },
+					order: { xs: 0 },
 				}}>
 				<img
 					src={imgDetail}
