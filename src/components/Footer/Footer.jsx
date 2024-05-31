@@ -45,12 +45,11 @@ const Footer = () => {
 				}}>
 				<StackColumn>
 					<PlaceIcon fontSize='large' />
-					<FooterText text={'Ayazağa Mah. Kemerburgaz Cad.'} />
-					<FooterText text={'Vadi İstanbul Park Sitesi 7B Blok'} />
-					<FooterText text={'No:7C İç Kapı No:34 Sarıyer/İstanbul'} />
+					<FooterText text={'Kısıklı, Hanımseti sokak No:33/B'} />
+					<FooterText text={'Üsküdar, İstanbul'} />
 				</StackColumn>
 
-				<StackColumn>
+				{/* <StackColumn>
 					<LocalPhoneIcon fontSize='large' />
 					<FooterText text={'(+90) 212 876 5273'} />
 					<FooterText text={'(+90) 212 876 1273'} />
@@ -68,7 +67,7 @@ const Footer = () => {
 					<AccessTimeIcon fontSize='large' />
 					<FooterText text={'Pt - Cu : 09:00 - 18:00'} />
 					<FooterText text={'Cts : 09:00 - 13:00'} />
-				</StackColumn>
+				</StackColumn> */}
 			</BoxRow>
 			<Divider />
 			<BoxRow
