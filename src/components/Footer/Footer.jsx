@@ -90,7 +90,7 @@ const Footer = () => {
 						maxWidth='100%'
 						justifyContent='space-between'>
 						<Link
-							href='#'
+							href='https://www.instagram.com/payeyatirimyapi/'
 							variant='body2'
 							sx={{
 								color: '#414141',
