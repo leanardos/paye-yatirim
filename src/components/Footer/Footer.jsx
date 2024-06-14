@@ -3,6 +3,7 @@ import { Box, Stack, styled } from '@mui/material';
 import Link from '@mui/material/Link';
 import FooterText from './FooterText';
 import FacebookIcon from '@mui/icons-material/Facebook';
+import EmailIcon from '@mui/icons-material/Email';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import PlaceIcon from '@mui/icons-material/Place';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -50,7 +51,7 @@ const Footer = () => {
 					<LocalPhoneIcon fontSize='large' />
 					<FooterText text={'(+90) 212 876 5273'} />
 					<FooterText text={'(+90) 212 876 1273'} />
-				</StackColumn>
+				</StackColumn> */}
 
 				<StackColumn>
 					<EmailIcon fontSize='large' />
@@ -59,12 +60,12 @@ const Footer = () => {
 						capitalize={false}
 					/>
 				</StackColumn>
-
+				{/* 
 				<StackColumn>
 					<AccessTimeIcon fontSize='large' />
 					<FooterText text={'Pt - Cu : 09:00 - 18:00'} />
 					<FooterText text={'Cts : 09:00 - 13:00'} />
-				</StackColumn> */}
+				</StackColumn>  */}
 			</BoxRow>
 			<Divider />
 			<BoxRow
