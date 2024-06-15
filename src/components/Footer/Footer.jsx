@@ -56,7 +56,7 @@ const Footer = () => {
 				<StackColumn>
 					<EmailIcon fontSize='large' />
 					<FooterText
-						text={'info@payeyatirim.com'}
+						text={'info@payeyatirim.com.tr'}
 						capitalize={false}
 					/>
 				</StackColumn>
