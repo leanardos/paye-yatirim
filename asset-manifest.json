@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/static/js/main.78d074a0.js",
+    "main.js": "/static/js/main.4e359fca.js",
     "static/media/paye_building_2.png": "/static/media/paye_building_2.90e1eebf252f45889159.png",
     "static/media/service.png": "/static/media/service.e0c2157d5aa75102d525.png",
     "static/media/building7.png": "/static/media/building7.7dac5fbcd421f5a7df39.png",
     "static/media/construction.png": "/static/media/construction.7017d8358c616c9e3e7c.png",
     "static/media/file.png": "/static/media/file.a69ddc30c648168cc5a4.png",
     "static/media/building6.png": "/static/media/building6.ca02ccd8f14f72f72d9c.png",
-    "static/media/newFullLogo.png": "/static/media/newFullLogo.cd53039f13162a68a94a.png",
+    "static/media/logo-white.png": "/static/media/logo-white.0fcda2d9102137ed851a.png",
     "index.html": "/index.html",
-    "main.78d074a0.js.map": "/static/js/main.78d074a0.js.map"
+    "main.4e359fca.js.map": "/static/js/main.4e359fca.js.map"
   },
   "entrypoints": [
-    "static/js/main.78d074a0.js"
+    "static/js/main.4e359fca.js"
   ]
 }
