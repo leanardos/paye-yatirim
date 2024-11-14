@@ -20,7 +20,7 @@ const GetInTouch = () => {
 			/>
 			<Paragraph
 				text={
-					'Paye Yatırım Yapı olarak iletişimin gücüne inanıyoruz.\
+					'Paye Yapı olarak iletişimin gücüne inanıyoruz.\
                     Bir fikriniz ya da öneriniz varsa bunu bizimle paylaşabilirsiniz.'
 				}
 				maxWidth={'sm'}

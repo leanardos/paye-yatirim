@@ -12,7 +12,7 @@ import {
 } from '@mui/material';
 import DrawerItem from './DrawerItem';
 import { Link } from 'react-router-dom';
-import imgDetail from '../assets/newFullLogo.png';
+import imgDetail from '../assets/logo-white.png';
 import { useNavigate } from 'react-router-dom';
 
 const StyledToolbar = styled(Toolbar)({

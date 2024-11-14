@@ -38,11 +38,11 @@ const Generic = () => {
 						px: 4,
 					}}>
 					<Title
-						text={'Paye Yatırım Yapıya Hoşgeldiniz'}
+						text={'Paye Yapıya Hoşgeldiniz'}
 						textAlign={'start'}
 					/>
 					<CustomTypography>
-						Paye Yatırım Yapı olarak uzmanlığımız ve teknik bilgi
+						Paye Yapı olarak uzmanlığımız ve teknik bilgi
 						birikimimizin yanı sıra, etik değerlere bağlı, ilkeli ve
 						şeffaf çalışma prensiplerimiz sayesinde sektörde
 						prestijli bir yer edindik.

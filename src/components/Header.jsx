@@ -46,7 +46,7 @@ const Header = ({ scrollToBottom }) => {
 						fontWeight: 700,
 						color: '#000',
 					}}>
-					Paye Yatırım Yapıya Hoşgeldiniz
+					Paye Yapıya Hoşgeldiniz
 				</Typography>
 
 				<Typography
@@ -57,7 +57,7 @@ const Header = ({ scrollToBottom }) => {
 						lineHeight: 1.6,
 						color: '#000',
 					}}>
-					Paye Yatırım Yapı olarak, kullandığımız yüksek teknoloji,
+					Paye Yapı olarak, kullandığımız yüksek teknoloji,
 					bünyemizdeki kalifiyeli kadromuzla dünyamızın yaşanabilir
 					değerlerini insanlığa sunuyoruz.
 				</Typography>

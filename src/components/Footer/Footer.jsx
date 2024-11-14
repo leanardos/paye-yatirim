@@ -8,7 +8,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import PlaceIcon from '@mui/icons-material/Place';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import Divider from '@mui/material/Divider';
-import imgDetail from '../../assets/newFullLogo.png';
+import imgDetail from '../../assets/logo-white.png';
 
 const Footer = () => {
 	const StackColumn = styled(Stack)(() => ({
